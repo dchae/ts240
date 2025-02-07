@@ -1,2 +1,3 @@
-# ts240
-Launch School - Introduction to TypeScript course notes and exercises
+# TS240
+
+Launch School TS240 - Introduction to TypeScript course notes and exercises
