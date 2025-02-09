@@ -6,8 +6,7 @@
     "outDir": "./dist",
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "lib": ["dom"]
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["./src/**/*"],
   "$schema": "https://json.schemastore.org/tsconfig",
