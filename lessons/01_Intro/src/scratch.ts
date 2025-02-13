@@ -1,9 +1,14 @@
-function concatenate(a: string | number, b: string | number): string | number {
-  return a + b;
+function getProperty(obj: object, key: string) {
+  return obj[key]; // Error: No index signature with a parameter of type 'string' was found on type '{}'
 }
 
-const result: string = concatenate("Hello", "World") as string;
-const numericResult: number = concatenate(1, 2) as number;
+const obj = {
+  name: "John",
+  age: 30,
+};
 
-console.log(result);
-console.log(numericResult);
+const x = getProperty(obj, "name");
+const y = getProperty(obj, "age");
+
+console.log(x);
+console.log(y);
